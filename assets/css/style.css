@@ -40,6 +40,21 @@ h1 {
     color: #242424;
 }
 
+/*Nav bar*/
+#menu {
+    letter-spacing: 2px;
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /*Main Content*/
 main {
     background-color: cornsilk;

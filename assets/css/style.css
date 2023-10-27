@@ -96,12 +96,25 @@ main {
 /*Footer*/
 footer {
     background-color: rgb(43, 226, 211);
-    height:30px;
-    margin-top:-30px;
+    height:50px;
+    margin-top:-50px;
     padding:5px 0;
     width:100%;
     position: fixed;
 }
+
+#social-networks {
+    text-align: center;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    padding: 5%;
+    font-size: 160%;
+} 
 
 /*Media query for tablets and larger (min-width: 768px and up)*/
 @media screen and (min-width: 768px){

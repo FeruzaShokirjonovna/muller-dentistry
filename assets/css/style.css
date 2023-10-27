@@ -1,3 +1,6 @@
+/*Import Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Oswald:wght@300&display=swap');
+
 /*Asterisk wildcard selector overrides default styles*/
 * {
     padding: 0;
@@ -12,6 +15,7 @@ main {
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
+    font-family: 'Domine', sans-serif;
 }
 
 /*Header*/

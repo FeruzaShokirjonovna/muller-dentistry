@@ -23,6 +23,10 @@ header {
     background-color: aliceblue;
 }
 
+h1 {
+    font-family: 'Domine', serif;
+}
+
 /*Main Content*/
 main {
     background-color: cornsilk;

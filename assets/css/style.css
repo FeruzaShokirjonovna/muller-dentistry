@@ -89,12 +89,18 @@ main {
     background-color: cornsilk;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    /*push main content with margin-top*/
+    /*push main content with padding-top*/
+    padding-top: 79px;
 }
 
 /*Footer*/
 footer {
-    background-color: blueviolet;
+    background-color: rgb(43, 226, 211);
+    height:30px;
+    margin-top:-30px;
+    padding:5px 0;
+    width:100%;
+    position: fixed;
 }
 
 /*Media query for tablets and larger (min-width: 768px and up)*/

@@ -89,9 +89,34 @@ main {
     background-color: cornsilk;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    /*push main content with margin-top*/
 }
 
 /*Footer*/
 footer {
     background-color: blueviolet;
+}
+
+/*Media query for tablets and larger (min-width: 768px and up)*/
+@media screen and (min-width: 768px){
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+    
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }

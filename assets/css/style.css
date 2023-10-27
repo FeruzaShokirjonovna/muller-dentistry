@@ -86,21 +86,27 @@ nav {
 
 /*Main Content*/
 main {
-    background-color: cornsilk;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     /*push main content with padding-top*/
     padding-top: 79px;
 }
 
+/*Home image section*/
+#home {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero.jpg") no-repeat center center/cover;
+}
+
 /*Footer*/
 footer {
     background-color: rgb(43, 226, 211);
-    height:50px;
-    margin-top:-50px;
+    height:80px;
+    margin-top:-80px;
     padding:5px 0;
     width:100%;
-    position: fixed;
+    position: absolute;
 }
 
 #social-networks {
@@ -145,10 +151,13 @@ footer {
         margin: 0 0.5rem;
     }
 
+    footer {
+        padding-top: 15px;
+    }
+
     /*Main*/
-    main {
-        /*Push main content down to accomodate larger header*/
-        /*margin-top: 79px;*/
+    #hero {
+        min-height: 1200px;
     }
 }
 
@@ -156,5 +165,9 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a :hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #home {
+        min-height: 700px;
     }
 }

@@ -90,8 +90,47 @@ main {
     flex: 1 0 auto;
     /*push main content with padding-top*/
     /*padding-top: 79px;*/
+    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
+
+/*Style contact page*/
+#contact {
+    /*background-image: url("../images/signup-image.webp");*/
+    background-color: rgb(39, 207, 212)
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+/*Style booking form*/
+#booking {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#booking > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa; 
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;   
+    padding: 0 5px;
+}
+
+
 
 /*Home image section*/
 #home {

@@ -9,13 +9,20 @@
 }
 
 /*General styles*/
-main {
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
     font-family: 'Domine', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Domine', serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #242424;
 }
 
 /*Header*/
@@ -34,13 +41,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Domine', serif;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    color: #242424;
 }
 
 /*Nav bar*/
@@ -81,7 +81,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    padding-top: 5px;
+    /*padding-top: 5px;*/
 }
 
 /*Main Content*/
@@ -89,25 +89,42 @@ main {
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     /*push main content with padding-top*/
-    padding-top: 79px;
+    /*padding-top: 79px;*/
+    margin-top: 47px;
 }
 
 /*Home image section*/
 #home {
     height: 600px;
     width: 100%;
+    position: relative;
     background: url("../images/hero.jpg") no-repeat center center/cover;
 }
 
+#cover-text {
+    background-color: rgba(101, 211, 58, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    min-width: 80px;
+    max-height: 60rem;
+    padding: 2px 1px 2px;
+}
+
+#cover-text h2 {
+    text-transform: none;
+    color: #ffffff;
+}
+
 /*Footer*/
-footer {
+/*footer {
     background-color: rgb(43, 226, 211);
     height:80px;
     margin-top:-80px;
     padding:5px 0;
     width:100%;
     position: absolute;
-}
+}*/
 
 #social-networks {
     text-align: center;
@@ -120,6 +137,7 @@ footer {
 #social-networks i {
     padding: 5%;
     font-size: 160%;
+    color: #3a3a3a;
 } 
 
 /*Media query for tablets and larger (min-width: 768px and up)*/
@@ -151,23 +169,22 @@ footer {
         margin: 0 0.5rem;
     }
 
-    footer {
+    /*footer {
         padding-top: 15px;
-    }
+    }*/
 
     /*Main*/
-    #hero {
-        min-height: 1200px;
+    main {
+        /*Push main down to accomodate larger header*/
+        margin-top: 79px;
     }
 }
 
 /*Large devices (992px and up)*/
 @media screen and (min-width: 992px) {
-    #menu a :hover {
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #home {
-        min-height: 700px;
-    }
+
 }

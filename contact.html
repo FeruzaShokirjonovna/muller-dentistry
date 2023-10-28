@@ -38,7 +38,35 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <section id="contact">
+            <form id="booking" method="POST" action="https://formdump.codeinstitute.net">
+                <h2> Book your appointment online</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <div id="radio-button">
+                    <div>
+                        <label for="existing_patient">Existing patient</label>
+                        <input type="radio" name="existing_patient" id="existing_patient" value="existing_patient" required checked>
+                    </div>
+                    <div>
+                        <label for="new">New patient</label>
+                        <input type="radio" name="new" id="new" value="new" required>
+                    </div>
+                    <div>
+                        <label for="cild">Child</label>
+                        <input type="radio" name="child" id="child" value="child" required>
+                    </div>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>

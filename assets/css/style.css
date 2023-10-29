@@ -97,6 +97,30 @@ main {
     flex-direction: column;
 }
 
+
+/*Home image section*/
+#home {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background: url("../images/hero.jpg") no-repeat center center/cover;
+}
+
+#cover-text {
+    background-color: rgba(101, 211, 58, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    min-width: 80px;
+    max-height: 60rem;
+    padding: 2px 1px 2px;
+}
+
+#cover-text h2 {
+    text-transform: none;
+    color: #ffffff;
+}
+
 /*Reasons section*/
 #reasons {
     width: 90%;
@@ -109,8 +133,8 @@ main {
     font-size: 280%;
 }
 
-#benefits-12>div,
-#benefits-34>div {
+#benefits-12 > div,
+#benefits-34 > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -119,10 +143,36 @@ main {
     padding: 0 20px;
 }
 
-hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+
+
+/*Footer*/
+/*footer {
+    background-color: rgb(43, 226, 211);
+    height:80px;
+    margin-top:-80px;
+    padding:5px 0;
+    width:100%;
+    position: absolute;
+}*/
+
+#social-networks {
+    text-align: center;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    padding: 5%;
+    font-size: 160%;
+    color: #3a3a3a;
+} 
+
 
 /*Style contact page*/
 #contact {
@@ -183,52 +233,6 @@ hr {
     background-color: #3f4640;
 }
 
-/*Home image section*/
-#home {
-    height: 600px;
-    width: 100%;
-    position: relative;
-    background: url("../images/hero.jpg") no-repeat center center/cover;
-}
-
-#cover-text {
-    background-color: rgba(101, 211, 58, 0.7);
-    font-size: 130%;
-    position: absolute;
-    bottom: 30px;
-    min-width: 80px;
-    max-height: 60rem;
-    padding: 2px 1px 2px;
-}
-
-#cover-text h2 {
-    text-transform: none;
-    color: #ffffff;
-}
-
-/*Footer*/
-/*footer {
-    background-color: rgb(43, 226, 211);
-    height:80px;
-    margin-top:-80px;
-    padding:5px 0;
-    width:100%;
-    position: absolute;
-}*/
-
-#social-networks {
-    text-align: center;
-    padding: 5px 5px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-networks i {
-    padding: 5%;
-    font-size: 160%;
-    color: #3a3a3a;
-} 
 
 /*Media query for tablets and larger (min-width: 768px and up)*/
 @media screen and (min-width: 768px){

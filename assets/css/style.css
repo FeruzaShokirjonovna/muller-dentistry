@@ -137,17 +137,23 @@ main {
 #benefits-34 > div {
     line-height: 20px;
     margin-bottom: 20px;
+    background-color: rgba(155, 225, 247, 0.37);
 }
 
 #benefits p {
     padding: 0 20px;
 }
 
-#benefits hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
+#benefit1, 
+#benefit2,
+#benefit3,
+#benefit4 {
+    background-color: rgba;
+    border: 2px solid rgba(226, 43, 186, 0.37);
+    margin: 4px;
+    padding: 6px;
+    border-radius: 25px;
 }
-
 
 /*Footer*/
 /*footer {

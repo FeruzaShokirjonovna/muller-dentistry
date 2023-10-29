@@ -101,16 +101,18 @@ main {
 #contact {
     /*background-image: url("../images/signup-image.webp");*/
     background-color: rgb(39, 207, 212)
-    background-size: cover;
-    background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 /*Style booking form*/
 #booking {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(84, 199, 245, 0.363);
     padding: 30px;
 }
 
@@ -151,7 +153,7 @@ main {
 }
 
 .submit-button:hover {
-    background-color: #45a049;
+    background-color: #3f4640;
 }
 
 /*Home image section*/
@@ -239,6 +241,9 @@ main {
         /*Push main down to accomodate larger header*/
         margin-top: 79px;
     }
+
+    /*Contact page*/
+
 }
 
 /*Large devices (992px and up)*/

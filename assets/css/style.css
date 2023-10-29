@@ -97,6 +97,33 @@ main {
     flex-direction: column;
 }
 
+/*Reasons section*/
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-12>div,
+#benefits-34>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /*Style contact page*/
 #contact {
     /*background-image: url("../images/signup-image.webp");*/

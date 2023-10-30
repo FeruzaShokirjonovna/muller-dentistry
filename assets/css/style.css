@@ -345,6 +345,28 @@ main {
     background-color: #3f4640;
 }
 /*Style address section*/
+#address-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+#address-wrapper div {
+    border: 2px solid black;
+    box-shadow: 6px 6px #808488;
+    color: rgb(1, 51, 95);
+    padding: 10px;
+    text-align: left;
+    margin: 15px;
+    /*This will not wrap on screens less 400px wide*/
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#addess-wrapper i {
+    text-align: center;
+}
+
+
+
 /*Media query for tablets and larger (min-width: 768px and up)*/
 @media screen and (min-width: 768px) {
 

@@ -108,18 +108,22 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(101, 211, 58, 0.7);
+    background-color: rgba(58, 168, 211, 0.432);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
     min-width: 80px;
-    max-height: 60rem;
+    max-height: 50rem;
     padding: 2px 1px 2px;
 }
 
-#cover-text h2 {
+#cover-text h2, h3 {
     text-transform: none;
     color: #ffffff;
+}
+
+#cover-text h2 {
+    text-align: center;
 }
 
 /*Reasons section*/
@@ -129,6 +133,7 @@ main {
 }
 
 #reasons h2 {
+    color: #080808;
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
@@ -141,8 +146,9 @@ main {
     background-color: rgba(155, 225, 247, 0.37);
 }
 
-#benefits p {
+#benefits h3, p {
     padding: 0 20px;
+    color: #080808;
 }
 
 #benefit1,

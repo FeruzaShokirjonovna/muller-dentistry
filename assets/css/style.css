@@ -222,6 +222,17 @@ main {
     flex-grow: 2;
 }
 
+#team-text {
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 12px;
+}
+#team-text > h2, h3 {
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+}
+
 /*Customized from W3Schools tutorial https://www.w3schools.com/howto/howto_css_team.asp*/
 /* Three columns side by side */
 .column {
@@ -261,8 +272,8 @@ main {
   color: grey;
 }
 
-.row h3 {
-    text-align: right;
+.row h3, p {
+    text-align: center;
     padding: 10px;
 }
 

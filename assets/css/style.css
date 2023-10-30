@@ -247,6 +247,7 @@ main {
     text-align: center;
     padding: 15px;
     margin: 20px;
+    color: black;
 }
 
 /*Customized from W3Schools tutorial https://www.w3schools.com/howto/howto_css_team.asp*/
@@ -359,6 +360,7 @@ main {
     border: 2px solid black;
     box-shadow: 6px 6px #808488;
     color: rgb(1, 51, 95);
+    background-color: rgba(111, 228, 146, 0.315);
     padding: 10px;
     text-align: left;
     margin: 15px;
@@ -417,12 +419,14 @@ main {
     #contact {
         background-position: center;
         position: relative;
+        max-height: 20%;
     }
 
     #booking {
         max-width: 400px;
         position: absolute;
-        
+        left: 10%;
+    
     }
 
 }
@@ -433,5 +437,13 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
+    #contact {
+        background-position: center;
+        position: relative;
+    }
+    #booking {
+        position: absolute;
+
+    }
 
 }

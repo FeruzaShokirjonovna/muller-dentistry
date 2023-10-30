@@ -344,23 +344,7 @@ main {
 .submit-button:hover {
     background-color: #3f4640;
 }
-/*
-#address-wrapper>div {
-    border: 2px solid rgb(208, 211, 210);
-    margin: 10px;
-}
-
-#address-wrapper>i,
-h3,
-p {
-    text-align: center;
-    padding: 4px;
-}
-
-#address-wrapper i {
-    text-align: center;
-}
-*/
+/*Style address section*/
 /*Media query for tablets and larger (min-width: 768px and up)*/
 @media screen and (min-width: 768px) {
 

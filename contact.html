@@ -39,36 +39,37 @@
 
     <!-- Main content -->
     <main>
-        <section class="contact">
-            <form id="booking" method="POST" action="https://formdump.codeinstitute.net">
-                <h2> Book your appointment online</h2>
-                <label for="first_name">First Name</label>
-                <input type="text" name="first_name" id="first_name" class="text-input" required>
-                <br>
-                <label for="last_name">Last Name</label>
-                <input type="text" name="last_name" id="last_name" class="text-input" required>
-                <br>
-                <label for="message"> Message about your oral health issue:</label>
-                <textarea id="message" name="message" class="text-input" 
-                    required></textarea>
-                <br>
-                <div id="radio-button">
-                    <div>
-                        <label for="existing_patient">Existing patient</label>
-                        <input type="radio" name="existing_patient" id="existing_patient" value="existing_patient"
-                            required checked>
+        <section id="contact">
+            <div class="contact">
+                <form id="booking" method="POST" action="https://formdump.codeinstitute.net">
+                    <h2> Book your appointment online</h2>
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" class="text-input" required>
+                    <br>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" class="text-input" required>
+                    <br>
+                    <label for="message"> Message about your oral health issue:</label>
+                    <textarea id="message" name="message" class="text-input" 
+                        required></textarea>
+                    <br>
+                    <div id="radio-button">
+                        <div>
+                            <label for="existing_patient">Existing patient</label>
+                            <input type="radio" name="existing_patient" id="existing_patient" value="existing_patient"
+                                required checked>
+                        </div>
+                        <div>
+                            <label for="new">New patient</label>
+                            <input type="radio" name="new" id="new" value="new" required>
+                        </div>
                     </div>
-                    <div>
-                        <label for="new">New patient</label>
-                        <input type="radio" name="new" id="new" value="new" required>
-                    </div>
-                </div>
-                <br>
-                <button type="submit" class="submit-button">Book!</button>
-
-            </form>
+                    <br>
+                    <button type="submit" class="submit-button">Book!</button>
+                </form>
+            </div>
         </section>
-        <section id="address-wrapper">
+        <!--<section id="address-wrapper">
             <div class="address">
                 <i class="fa-solid fa-map-location-dot fa-fade"></i>
                 <h3>Address</h3>
@@ -84,7 +85,7 @@
                 <h3>Email</h3>
                 <p>dentistrycontact@mail.com</p>
             </div>
-        </section>
+        </section>-->
     </main>
 
     <!-- Footer -->

@@ -156,6 +156,26 @@ main {
     border-radius: 25px;
 }
 
+/*Feedback section*/
+#testimonials {
+    
+}
+#feedback {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#feedback div {
+    background-color: orchid;
+    color: aliceblue;
+    padding: 10px;
+    text-align: left;
+    margin: 5px;
+    /*This will not wrap on screens less 400px wide*/
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
 /*Footer*/
 /*footer {
     background-color: rgb(43, 226, 211);

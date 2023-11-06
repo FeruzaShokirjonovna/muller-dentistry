@@ -296,87 +296,9 @@ main {
 
 
 /*Style contact page*/
-#contact {
-    background-image: url("../images/contact.jpg");
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
+#main {
+    background-color: bisque;
 }
-
-/*Style booking form*/
-.contact {
-    background-image: url(../images/contact.jpg) no-repeat center center/cover;
-}
-
-#booking {
-    color: #ffffff;
-    background-color: rgba(167, 19, 197, 0.336);
-    padding: 30px;
-}
-
-#booking>h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #080808;
-    border-radius: 4px;
-    padding: 12px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical
-}
-
-.radio-buttons {
-    width: 100%;
-    padding: 2px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.submit-button {
-    margin-top: 20px;
-    border-radius: 4px;
-    padding: 15px 32px;
-    font-size: 100%;
-    background-color: #808488;
-    color: #fafafa;
-}
-
-.submit-button:hover {
-    background-color: #3f4640;
-}
-/*Style address section*/
-#address-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-#address-wrapper div {
-    border: 2px solid black;
-    box-shadow: 6px 6px #808488;
-    color: rgb(1, 51, 95);
-    background-color: rgba(111, 228, 146, 0.315);
-    padding: 10px;
-    text-align: left;
-    margin: 15px;
-    /*This will not wrap on screens less 400px wide*/
-    flex-basis: 200px;
-    flex-grow: 1;
-}
-
-#addess-wrapper i {
-    text-align: center;
-}
-
-
 
 /*Media query for tablets and larger (min-width: 768px and up)*/
 @media screen and (min-width: 768px) {
@@ -408,10 +330,7 @@ main {
         margin: 0 0.5rem;
     }
 
-    /*footer {
-        padding-top: 15px;
-    }*/
-
+    
     /*Main*/
     main {
         /*Push main down to accomodate larger header*/
@@ -419,18 +338,7 @@ main {
     }
 
     /*Contact page*/
-    #contact-image {
-        background-position: center;
-        position: relative;
-        max-height: 20%;
-    }
-
-    #booking {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-       
-    }
+    
 
 }
 
@@ -440,13 +348,5 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #contact {
-        background-position: center;
-        position: relative;
-    }
-    #booking {
-        position: absolute;
-
-    }
-
+    
 }

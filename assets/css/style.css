@@ -296,8 +296,35 @@ main {
 
 
 /*Style contact page*/
-#main {
-    background-color: bisque;
+#time {
+    width: 100%;
+    position: relative;
+    background-color: rgb(210, 248, 248);
+}
+
+#time h2 {
+    text-transform: none;
+    text-align: center;
+    padding: 40px;
+}
+
+#contact {
+    text-align: center;
+    background-color: rgba(248, 234, 243, 0.685);
+    
+      
+    min-width: 80px;
+    max-height: 50rem;
+    padding: 2px 1px 2px;
+}
+
+#map {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    background-color: lightblue;
 }
 
 /*Media query for tablets and larger (min-width: 768px and up)*/

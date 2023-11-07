@@ -52,4 +52,38 @@ The Home page is the starting point for users. It provides a short overview of w
 ## Future Features
 - Include online booking form
 
+## Testing
+
+### Validator Testing
+
+#### HTML
+
+#### CSS
+
+#### Google Chrome Ligthouse Reports
+
+### Manual Testing
+
+#### Features Testing
+
+## Browser Testing
+
+Functionality, links, layout, and responsiveness were tested with the following browsers without any issues:
+
+## Device Testing
+
+Functionality, links, layout, and responsiveness were tested on the following devices without any issues:
+
+### Findings under Testing
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Main Branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  
+The live link can be found here - <https://github.com/FeruzaShokirjonovna/muller-dentistry>
+
 

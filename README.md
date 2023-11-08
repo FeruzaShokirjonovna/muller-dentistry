@@ -4,7 +4,7 @@
 
 ### Project Description
 
-[Muller's Dentistry](https://feruzashokirjonovna.github.io/muller-dentistry/) is a website that provides information to peopli living in Bremen about dentistry, its services.
+[Muller's Dentistry](https://feruzashokirjonovna.github.io/muller-dentistry/) is a website that provides information to people living in Bremen about dentistry, its services. Users find out specific treatment types wchich Muller's team offer.
 
 ## Features
 
@@ -58,7 +58,11 @@ The Home page is the starting point for users. It provides a short overview of w
 
 #### HTML
 
+No errors were returned when passing through the [W3C Markup validator](https://validator.w3.org/).
+
 #### CSS
+
+No errors were found when passing through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) validator
 
 #### Google Chrome Ligthouse Reports
 
@@ -85,5 +89,57 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
   
 The live link can be found here - <https://github.com/FeruzaShokirjonovna/muller-dentistry>
+
+## Technology
+
+- IDE: Gitpod
+- Repository: Github
+- Favicon generator:[Favicon Generator](https://favicon.io/)
+
+## Credits
+
+### Content
+
+Idea, content and text are developed by myself.
+
+Treatment section in Service page is written by my husband, Dr.Mirsidikov.
+
+Inspiration for the layout from walkthrough project "Love Running".
+
+- Fonts from [Google Fonts](https://fonts.google.com/)
+- Icons from [Font Awesome](https://fontawesome.com/)
+- Map from [Google Maps](https://googlemaps.com)
+- Color scheme from [Adobe color](https://color.adobe.com)
+
+### Media
+
+Hero image on the landing page is taken by myself.
+Woman image in Team section is from [Wavebreak Media](https://wavebreakmedia.com)
+Man image in Team section is from [Pikiwizard](https://pikiwizard.com)
+Background image in Testimonials section is from [Freepik](https://freepik.com)
+
+### Code
+
+Initially, a lot of the code was copied from the Walkthrough project "Love Running" and changed during the project to fit this site.
+
+- Copied Asterisk wildcard selector from the Walkthrough project "Love Running"
+- Header & navigation copied from the Walkthrough project "Love Running"
+- Footer copied from the Walkthrough project "Love Running"
+
+Team section is customized from W3Schools tutorial [W3schools](https://www.w3schools.com/howto/howto_css_team.asp)
+
+#### Inspiration and tutorials used from
+
+  - [W3Schools](https://www.w3schools.com/)
+  - [Stack overflow](https://stackoverflow.com/)
+  - Code Institute Slack Channel
+    - Special thanks to David Calikes, my fellow students, and my mentor Precious Ijege.
+
+#### Templates and tutorial for creating the readme-file
+
+  - [bezebee - My First Project](https://github.com/bezebee/My-First-Project/blob/main/README.md)
+  - [Drupal Wiki](https://www.drupal.org/docs/develop/managing-a-drupalorg-theme-module-or-distribution-project/documenting-your-project/readmemd-template)
+  - [GitHub Docs](https://docs.github.com/en)    
+
 
 

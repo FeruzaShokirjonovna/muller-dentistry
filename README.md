@@ -82,7 +82,7 @@ These reports presents the results of Lighthouse testing to assess the performan
 
 The tests were executed using the Google Chrome browser's DevTools.
 All pages score very high in all areas. Details for each page can be found by clicking the expand button.
-![Lighthouse score](assets/readmeimages/lighthouse_score)
+![Lighthouse score](assets/readmeimages/lighthouse_score.png)
 
 <details>
 <summary>Lighthouse Report for page Home</summary>

@@ -29,6 +29,7 @@ The Home page is the starting point for users. It provides a short overview of w
 ### Testimonials section
 - The Testimonials section gives information about various user experiences.
 - It shows warm feedbacks that reflect the high level of expertise, care, and patient-centered approach that sets Muller's Dentistry apart in the eyes of its patients.
+- Patient reviews make customer trust and brand awareness. 
 
 ![Testimonials section](assets/readmeimages/testimonials.png)
 
@@ -54,7 +55,14 @@ The Home page is the starting point for users. It provides a short overview of w
 ![Contact page](assets/readmeimages/contact.png)
 
 ## Future Features
+
+While the current version is fully functional, there are some ideas for future development:
 - Include online booking form
+- Add information about price
+
+## Color scheme
+
+The color scheme was selected to represent feelings of trust and security. Blue and green graphics create a happy atmosphere, easing customers' minds during stressful dental visits.
 
 ## Testing
 

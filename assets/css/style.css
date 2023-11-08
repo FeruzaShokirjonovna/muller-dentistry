@@ -108,7 +108,7 @@ main {
 }
 
 #cover-text {
-    background-color: #678c30af;
+    background-color: #b5ecfdb4;
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -119,7 +119,8 @@ main {
 
 #cover-text h2, h3 {
     text-transform: none;
-    color: #ffffff;
+    color: #4325af;
+    padding: 15px;
 }
 
 #cover-text h2 {
@@ -300,7 +301,7 @@ footer {
 #time {
     width: 100%;
     position: relative;
-    background-color: #A0C3D9;
+    background-color: rgb(232, 240, 239);
 }
 
 #time h2 {
@@ -311,8 +312,6 @@ footer {
 
 #contact {
     text-align: center;
-    
-    
       
     min-width: 80px;
     max-height: 50rem;

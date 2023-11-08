@@ -6,6 +6,8 @@
 
 [Muller's Dentistry](https://feruzashokirjonovna.github.io/muller-dentistry/) is a website that provides information to people living in Bremen about dentistry, its services. Users find out specific treatment types wchich Muller's team offer.
 
+![Responsive image example](assets/readmeimages/amiresponsive.png)
+
 ## Features
 
 ### Navigation
@@ -15,39 +17,40 @@
 ### Home
 The Home page is the starting point for users. It provides a short overview of what Muller's Dentistry has to offer. 
 
-![Home Page]()
+![Home Page](assets/readmeimages/home.png)
 
 
 ### Benefits section
 - The Benefits section allows user get in-depth key features which make Muller's dentistry unique.
 
-![Benefits section]()
+![Benefits section](assets/readmeimages/benefits.png)
 
 ### Testimonials section
 - The Testimonials section gives information about various user experiences.
 - It shows warm feedbacks that reflect the high level of expertise, care, and patient-centered approach that sets Muller's Dentistry apart in the eyes of its patients.
 
-![Testimonials section]()
+![Testimonials section](assets/readmeimages/testimonials.png)
 
 ### Footer
 
 - The footer area contains links to relevant social media sites (Facebook, Twitter, You Tube and Instagram) to encourage users to keep connected. The icons include alternative text to provide relevant information when screen readers are used. All links open in a new tab to allow easy navigation for the user.
 
-![Footer]()
+![Footer](assets/readmeimages/footer.png)
 
 ### Service page
 
 -The Service page describes some types of services with clear definitions that Muller's Dentistry offers. 
 -In Service page there is also Team section which introduces the stuff of the dentistry to users.
 
-![Service page]()
+![Service page](assets/readmeimages/treatments.png)
+![Team section](assets/readmeimages/team.png)
 
 ### Contact page
 
 - Contact page gives information about how to get in touch with the Muller's Dentistry.
 - Contact page shows the time when the dentistry is open, phone, email, address.
 
-![Contact page]()
+![Contact page](assets/readmeimages/contact.png)
 
 ## Future Features
 - Include online booking form
@@ -66,6 +69,31 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 
 #### Google Chrome Ligthouse Reports
 
+These reports presents the results of Lighthouse testing to assess the performance, accessibility, best practices and SEO of [Muller's Dentistry](https://feruzashokirjonovna.github.io/muller-dentistry/).
+
+The tests were executed using the Google Chrome browser's DevTools.
+All pages score very high in all areas. Details for each page can be found by clicking the expand button.
+![Lighthouse score](assets/readmeimages/lighthouse_score)
+
+<details>
+<summary>Lighthouse Report for page Home</summary>
+
+![Performance Home](assets/readmeimages/lighthouse_home.png)
+</details>
+
+<details>
+<summary>Lighthouse Report for page Service</summary>
+
+![Performance Home](assets/readmeimages/lighthouse_service.png)
+</details>
+
+<details>
+<summary>Lighthouse Report for page Contact</summary>
+
+![Performance Home](assets/readmeimages/lighthouse_contact.png)
+</details>
+
+
 ### Manual Testing
 
 #### Features Testing
@@ -74,9 +102,18 @@ No errors were found when passing through the [W3C CSS Validator](https://jigsaw
 
 Functionality, links, layout, and responsiveness were tested with the following browsers without any issues:
 
+- Google Chrome Version: 119.0.6045.109; (31. Oktober 2023)
+- Opera Version: 104.0.4944.36; (30. Oktober 2023)
+- Microsoft Edge Version: 119.0.2151.44; (2. November 2023)
+
 ## Device Testing
 
 Functionality, links, layout, and responsiveness were tested on the following devices without any issues:
+
+- iPhone X
+- Samsung Galaxy A13
+- Lenovo Tab P12
+- LG 27''
 
 ### Findings under Testing
 
@@ -94,7 +131,6 @@ The live link can be found here - <https://github.com/FeruzaShokirjonovna/muller
 
 - IDE: Gitpod
 - Repository: Github
-- Favicon generator:[Favicon Generator](https://favicon.io/)
 
 ## Credits
 
@@ -113,18 +149,19 @@ Inspiration for the layout from walkthrough project "Love Running".
 
 ### Media
 
-Hero image on the landing page is taken by myself.
-Woman image in Team section is from [Wavebreak Media](https://wavebreakmedia.com)
-Man image in Team section is from [Pikiwizard](https://pikiwizard.com)
-Background image in Testimonials section is from [Freepik](https://freepik.com)
+- Hero image on the landing page is taken by myself.
+- Woman image in Team section is from [Wavebreak Media](https://wavebreakmedia.com)
+- Man image in Team section is from [Pikiwizard](https://pikiwizard.com)
+- Background image in Testimonials section is from [Freepik](https://freepik.com)
 
 ### Code
 
-Initially, a lot of the code was copied from the Walkthrough project "Love Running" and changed during the project to fit this site.
+Some parts of the code was copied from the Walkthrough project "Love Running" and changed during the project to fit this site.
 
 - Copied Asterisk wildcard selector from the Walkthrough project "Love Running"
-- Header & navigation copied from the Walkthrough project "Love Running"
-- Footer copied from the Walkthrough project "Love Running"
+- Header & navigation is copied from the Walkthrough project "Love Running"
+- Landing page and cover text style is copied from the Walkthrough project "Love Running"
+- Footer is copied from the Walkthrough project "Love Running"
 
 Team section is customized from W3Schools tutorial [W3schools](https://www.w3schools.com/howto/howto_css_team.asp)
 

@@ -13,6 +13,7 @@
 ### Navigation
 - The responsive navigation bar on top of the page includes links to the Home, Service and Contact page. The logo "Dentistry" is linked to the Start page. The navigation bar is identical on each page to enable easy navigation.
 - It allows users to navigate between pages on all devices without the need to use the "back" button.
+- The navigation bar changes appearance depending on the screen size for better user experience.
 
 ### Home
 The Home page is the starting point for users. It provides a short overview of what Muller's Dentistry has to offer. 
@@ -98,6 +99,9 @@ All pages score very high in all areas. Details for each page can be found by cl
 
 #### Features Testing
 
+- The links in the navigation bar directs the user to the designated section and homepage.
+- The Social Media icons in the footer directs the user to the designated social medias which will open up in a tew tab.
+
 ## Browser Testing
 
 Functionality, links, layout, and responsiveness were tested with the following browsers without any issues:
@@ -117,6 +121,8 @@ Functionality, links, layout, and responsiveness were tested on the following de
 
 ### Findings under Testing
 
+- No unfixed bugs has been left to display, nor has any bugs been encountered.
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -126,6 +132,18 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
   
 The live link can be found here - <https://github.com/FeruzaShokirjonovna/muller-dentistry>
+
+### Cloning
+
+Cloning the repository will allow to download a local version of the repository to be worked on. 
+
+- Find the relevant GitHub repository
+- Press the arrow on the Code button
+- Copy the link that is shown in the drop-down
+- Now open whatever editor for use & select the directory location where needed the clone created
+- In the terminal type 'git clone' & then paste the link copied in GitHub
+- Press enter and the local clone will be created.
+
 
 ## Technology
 
@@ -156,7 +174,7 @@ Inspiration for the layout from walkthrough project "Love Running".
 
 ### Code
 
-Some parts of the code was copied from the Walkthrough project "Love Running" and changed during the project to fit this site.
+Some parts of the code was copied from the Walkthrough project [Love Running Project](https://github.com/AlexSunner/love-running) and changed during the project to fit this site.
 
 - Copied Asterisk wildcard selector from the Walkthrough project "Love Running"
 - Header & navigation is copied from the Walkthrough project "Love Running"

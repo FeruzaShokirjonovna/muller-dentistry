@@ -374,6 +374,40 @@ footer {
     box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
 }
 
+.callback-input {
+    background-color: #fdf9ee;
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
+}
+
+#contact-today > h2 {
+    color: #46b35b;
+}
+
+#submit {
+    background-color: #fdf9ee;
+    width: 125px;
+    color: #1B3D2F;
+    display: inline-block;
+    font-size: larger;
+    padding: 15px 32px 15px 32px;
+    position: absolute;
+    left: 45%;
+    bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
+}
+
+/* when the cursor is over the submit button */
+
+#submit:hover {
+    border: 3px solid #fdf9ee;
+    background-color: #40c990;
+    color: #fdf9ee;
+}
+
 
 /*Media query for tablets and larger (min-width: 768px and up)*/
 @media screen and (min-width: 768px) {

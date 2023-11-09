@@ -154,8 +154,7 @@ main {
 #benefit2,
 #benefit3,
 #benefit4 {
-    background-color: rgba;
-    border: 2px solid rgba(17, 69, 240, 0.685);
+    border: 2px solid rgb(17, 69, 240, 0.685);
     margin: 4px;
     padding: 6px;
     border-radius: 25px;
@@ -317,14 +316,14 @@ footer {
     color: rgb(10, 6, 80);
     margin: 0 auto;
     position: relative;
+    object-fit: contain;
+    height: 700px;
 }
 
 #message {
     max-width: 50%;
     max-height: 200px;
     background-color: #fdf9ee;
-    display: inline-block;
-    position: absolute;
     right: 8%;
     border-radius: 10px;
     box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
@@ -340,12 +339,12 @@ footer {
 
 #form-input {
     max-width: 50%;
-    height: auto;
-    text-align: left;
+    height: auto;  
     margin-left: 15%;
-    padding: 10px;
-    font-size: larger;
-    display: inline-block;
+    font-size: larger;  
+    text-align: center;
+    padding: 2px;
+    display: initial;
 }
 
 #form-input > div {
@@ -383,7 +382,9 @@ footer {
     left: 45%;
     bottom: 15px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%); 
+    margin: auto;
+    margin-top: 25px;
 }
 
 /* when the cursor is over the submit button */
@@ -392,27 +393,6 @@ footer {
     border: 3px solid #fdf9ee;
     background-color: #40c990;
     color: #fdf9ee;
-}
-
-#form-destination-text {
-    padding: 10% 20% 10% 20%;
-    font-weight: lighter;
-}
-
-#form-destination-footer {
-    position: fixed;
-    bottom: 10%;
-}
-
-#form-input {
-    text-align: center;
-    padding: 2px;
-    display: initial;
-}
-
-#form {
-    object-fit: contain;
-    height: 700px;
 }
 
 #message {
@@ -425,10 +405,6 @@ footer {
     max-width: 90%;
 }
 
-#design-query-form > h2 {
-    padding-bottom: 0;
-}
-
 #submit {
     display: block;
     position: unset;
@@ -437,10 +413,6 @@ footer {
     bottom: 15px;
 }
 
-#form-destination-text {
-    font-size: x-large;
-    padding: 10% 5%;
-}
 
 /*Media query for tablets and larger (min-width: 768px and up)*/
 @media screen and (min-width: 768px) {

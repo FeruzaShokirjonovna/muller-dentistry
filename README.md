@@ -26,7 +26,7 @@ Muller's Website website has three pages. The [home page](index.html) is the def
 
 #### Typography
 
-'Domine' is used for the body text as it easy to read for all.
+'Domine' is used for the body text as it easy to read for all. Cursive in Testimonials section, so it makes sense of handwriting.
 
 #### Color Scheme
 
@@ -85,7 +85,8 @@ The color scheme was selected to represent feelings of trust and security. Blue 
 ## Future Features
 
 While the current version is fully functional, there are some ideas for future development:
-- Add information about price 
+- Add information about price.
+- Create a "Contact as today" button on a Home page. 
 
 ## Testing
 
@@ -95,9 +96,24 @@ While the current version is fully functional, there are some ideas for future d
 
 No errors were returned when passing through the [W3C Markup validator](https://validator.w3.org/).
 
+* Home page
+
+![W3C Validator test result](assets/readmeimages/html_w3test.png)
+
+* Service page
+
+![W3C Validator test result](assets/readmeimages/html_w3test.png)
+
+* Contact page
+
+![W3C Validator test result](assets/readmeimages/html_w3test.png)
+
+
 #### CSS
 
 No errors were found when passing through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) validator
+
+![CSS Validator test result](assets/readmeimages/css_test.png)
 
 #### Google Chrome Ligthouse Reports
 
@@ -222,7 +238,6 @@ Team section is customized from W3Schools tutorial [W3schools](https://www.w3sch
   - [W3Schools](https://www.w3schools.com/)
   - [Stack overflow](https://stackoverflow.com/)
   - Code Institute Slack Channel
-    - Special thanks to David Calikes, my fellow students, and my mentor Precious Ijege.
 
 #### Templates and tutorial for creating the readme-file
 

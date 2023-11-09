@@ -16,7 +16,8 @@
 - The navigation bar changes appearance depending on the screen size for better user experience.
 
 ### Home
-The Home page is the starting point for users. It provides a short overview of what Muller's Dentistry has to offer. 
+- The Home page is the starting point for users. 
+- It provides a short overview of what Muller's Dentistry has to offer. 
 
 ![Home Page](assets/readmeimages/home.png)
 
@@ -41,8 +42,8 @@ The Home page is the starting point for users. It provides a short overview of w
 
 ### Service page
 
--The Service page describes some types of services with clear definitions that Muller's Dentistry offers. 
--In Service page there is also Team section which introduces the stuff of the dentistry to users.
+- The Service page describes some types of services with clear definitions that Muller's Dentistry offers. 
+- In Service page there is also Team section which introduces the stuff of the dentistry to users.
 
 ![Service page](assets/readmeimages/treatments.png)
 ![Team section](assets/readmeimages/team.png)
@@ -82,6 +83,7 @@ These reports presents the results of Lighthouse testing to assess the performan
 
 The tests were executed using the Google Chrome browser's DevTools.
 All pages score very high in all areas. Details for each page can be found by clicking the expand button.
+
 ![Lighthouse score](assets/readmeimages/lighthouse_score.png)
 
 <details>
@@ -125,7 +127,7 @@ Functionality, links, layout, and responsiveness were tested on the following de
 - iPhone X
 - Samsung Galaxy A13
 - Lenovo Tab P12
-- LG 27''
+- LG Desktop 27''
 
 ### Findings under Testing
 

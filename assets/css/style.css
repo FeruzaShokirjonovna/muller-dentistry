@@ -321,6 +321,30 @@ footer {
     text-align: center;
 }
 
+/* form */
+
+#form {
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fdf9ee;
+    margin: 0 auto;
+    background-color: rgb(232, 240, 239);
+    position: relative;
+}
+
+#message {
+    max-width: 50%;
+    max-height: 200px;
+    background-color: #fdf9ee;
+    display: inline-block;
+    position: absolute;
+    right: 8%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
+}
+
+
 /*Media query for tablets and larger (min-width: 768px and up)*/
 @media screen and (min-width: 768px) {
 

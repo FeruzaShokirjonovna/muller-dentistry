@@ -8,6 +8,30 @@
 
 ![Responsive image example](assets/readmeimages/amiresponsive.png)
 
+## User Experience
+
+### Wireframes
+
+The wireframes for Muller's website were produced in [Balsamiq](https://balsamiq.com). There are frames for a full width display and a small mobile device. The final site varies slightly from the wireframes due to developments that occured during the creation process. 
+
+![Desktop wireframe image](assets/readmeimages/Wireframe_desktop.png)
+
+![Mobile wireframe image](assets/readmeimages/Wireframe_mobile.png) 
+
+### Site Structure
+
+Muller's Website website has three pages. The [home page](index.html) is the default loading page, [service page](service.html) and [contact page](contact.html).
+
+### Design Choices
+
+#### Typography
+
+'Domine' is used for the body text as it easy to read for all.
+
+#### Color Scheme
+
+The color scheme was selected to represent feelings of trust and security. Blue and white graphics create a happy atmosphere, easing customers' minds during stressful dental visits.
+
 ## Features
 
 ### Navigation
@@ -44,6 +68,7 @@
 
 - The Service page describes some types of services with clear definitions that Muller's Dentistry offers. 
 - In Service page there is also Team section which introduces the stuff of the dentistry to users.
+- In team section boxes are styled with a box shadow to 'detach' them from the site to instill a sense of impartiality in the user.
 
 ![Service page](assets/readmeimages/treatments.png)
 ![Team section](assets/readmeimages/team.png)
@@ -51,19 +76,16 @@
 ### Contact page
 
 - Contact page gives information about how to get in touch with the Muller's Dentistry.
-- Contact page shows the time when the dentistry is open, phone, email, address.
+- Contact page shows the time when the dentistry is open, phone, email, address map and a form.
+- There is a form that the user can choose to fill in. It has 5 input fields, name, email, address, callback and a textarea. The call back button lets Wawas Woods know if the user would like a callback.
 
 ![Contact page](assets/readmeimages/contact.png)
+![Form section](assets/readmeimages/form.png)
 
 ## Future Features
 
 While the current version is fully functional, there are some ideas for future development:
-- Include online booking form
-- Add information about price
-
-## Color scheme
-
-The color scheme was selected to represent feelings of trust and security. Blue and white graphics create a happy atmosphere, easing customers' minds during stressful dental visits.
+- Add information about price 
 
 ## Testing
 
@@ -154,11 +176,13 @@ Cloning the repository will allow to download a local version of the repository 
 - In the terminal type 'git clone' & then paste the link copied in GitHub
 - Press enter and the local clone will be created.
 
-
 ## Technology
 
-- IDE: Gitpod
-- Repository: Github
+- [HTML5](https://html.spec.whatwg.org/) - provides the content and structure for the website.
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
+- [Balsamiq](https://balsamiq.com/wireframes/) - used to create the wireframes.
+- [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
+- [Github](https://github.com/) - used to host and edit the website.
 
 ## Credits
 
@@ -206,5 +230,7 @@ Team section is customized from W3Schools tutorial [W3schools](https://www.w3sch
   - [Drupal Wiki](https://www.drupal.org/docs/develop/managing-a-drupalorg-theme-module-or-distribution-project/documenting-your-project/readmemd-template)
   - [GitHub Docs](https://docs.github.com/en)    
 
+## Acknowledgements
+The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. Muller' Dentistry is a fictional dentistry.
 
-
+Orifjonova Feruza Shokirjonovna, 2023.

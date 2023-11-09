@@ -89,8 +89,6 @@ nav {
 main {
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    /*push main content with padding-top*/
-    /*padding-top: 79px;*/
     /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
     /* Enable flex properties for child elements */
@@ -310,7 +308,7 @@ footer {
 }
 
 
-/* form */
+/* Form section */
 
 #form {
     height: 500px;
@@ -419,7 +417,6 @@ footer {
 
 #message {
     height: 150px;
-    width: 90%;
     display: block;
     overflow: auto;
     position: unset;
@@ -482,9 +479,6 @@ footer {
         margin-top: 79px;
     }
     /*Contact page*/
-    #map {
-        padding-right: 20px;
-    }
 
 }
 

@@ -327,7 +327,7 @@ footer {
     height: 500px;
     width: 100%;
     box-sizing: border-box;
-    color: #fdf9ee;
+    color: rgb(42, 26, 143) 13, 248);
     margin: 0 auto;
     background-color: rgb(232, 240, 239);
     position: relative;
@@ -350,6 +350,28 @@ footer {
     color: #1B3D2F;
     font-size: large;
     font-family: 'lato', sans-serif;
+}
+
+#form-input {
+    max-width: 50%;
+    height: auto;
+    text-align: left;
+    margin-left: 15%;
+    padding: 10px;
+    font-size: larger;
+    display: inline-block;
+}
+
+#form-input > div {
+    padding: 15px;
+}
+
+.input {
+    height: 30px;
+    width: 250px;
+    background-color: #fdf9ee;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
 }
 
 

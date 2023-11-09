@@ -63,7 +63,7 @@ While the current version is fully functional, there are some ideas for future d
 
 ## Color scheme
 
-The color scheme was selected to represent feelings of trust and security. Blue and green graphics create a happy atmosphere, easing customers' minds during stressful dental visits.
+The color scheme was selected to represent feelings of trust and security. Blue and white graphics create a happy atmosphere, easing customers' minds during stressful dental visits.
 
 ## Testing
 

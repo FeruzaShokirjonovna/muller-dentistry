@@ -311,8 +311,7 @@ footer {
 }
 
 #contact {
-    text-align: center;
-      
+    text-align: center;   
     min-width: 80px;
     max-height: 50rem;
     padding: 2px 1px 2px;
@@ -320,9 +319,7 @@ footer {
 
 #map {
     text-align: center;
-    margin-top: 40px;
 }
-
 
 /*Media query for tablets and larger (min-width: 768px and up)*/
 @media screen and (min-width: 768px) {

@@ -48,11 +48,12 @@
                     <div class="column">
                         <div id="times">
                             <h3>Open times:</h3>
-                            <p>Monday-Friday : 9:00 a.m.-5:00 p.m.</p>
+                            <p>Monday-Thursday : 9:00 a.m.-5:00 p.m.</p>
+                            <p>Friday: 9:00 a.m.-3:00 p.m.</p>
                             <p>Saturday: 9:00 a.m.-1:00 p.m.</p>
                         </div>
                     </div>
-                
+
                     <div class="column">
                         <div id="contact">
                             <h3>Contacts:</h3>
@@ -62,23 +63,44 @@
                     </div>
 
                     <div class="column">
-                        <div id="address">
-                            <h3>Address:</h3>
-                            <p>Am Hulsberg 97, Bremen</p>
-                            <p>Germany</p>
+                        <div id="map">
+                            <iframe
+                                src="
+                                https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2397.1816573434676!2d8.84793!3d53.07101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b127f221aa070b%3A0xd367eaa05b341dfa!2sAm%20Hulsberg%2097%2C%2028205%20Bremen!5e0!3m2!1sde!2sde!4v1699282278861!5m2!1sde!2sde"
+                                max-width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
                     </div>
                 </div>
             </div>
-            <div id="map">
-                <iframe
-                    src="
-                    https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2397.1816573434676!2d8.84793!3d53.07101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b127f221aa070b%3A0xd367eaa05b341dfa!2sAm%20Hulsberg%2097%2C%2028205%20Bremen!5e0!3m2!1sde!2sde!4v1699282278861!5m2!1sde!2sde"
-                    max-width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section id="form" aria-label="Design Query form">
+            <div id="design-query-form">
+                <h2>Contact us today</h2>
+                <form action="formdestination.html" method="get">
+                    <div id="form-input">
+                        <div>
+                        <label for="name" id="name-input">Name:</label>
+                        <input type="text" id="name" class="input" name="name" required>
+                        </div>
+                        <div>
+                        <label for="email" id="email-input">E-mail:</label>
+                        <input type="email" id="email" class="input" name="email" required>
+                        </div>
+                        <div>
+                        <label for="phone" id="phone-input">Phone:</label>
+                        <input type="text" id="phone" class="input" name="phone">
+                        </div>
+                        <div>
+                        <label for="callback" id="callback-input">Request a callback:</label>
+                        <input type="checkbox" id="callback" class="callback-input" name="callback">
+                        </div>
+                    </div>
+                    <textarea aria-label="Textbox" id="message" name="message" rows="15" cols="60" placeholder=" Insert your message here"></textarea>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
             </div>
-
         </section>
     </main>
 

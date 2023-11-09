@@ -169,7 +169,13 @@ Functionality, links, layout, and responsiveness were tested on the following de
 
 ### Findings under Testing
 
-- No unfixed bugs has been left to display, nor has any bugs been encountered.
+#### Resolved
+
+- During validation one bug became known during the validation stage, a brief description is below:
+
+![W3C Validator test result](assets/readmeimages/css_bug.png)
+
+This was an oversight from the development phase when the font size was being modified. It was easily fixed by setting the background color as planned.
 
 ## Deployment
 

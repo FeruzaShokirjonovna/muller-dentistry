@@ -154,6 +154,7 @@ main {
 #benefit2,
 #benefit3,
 #benefit4 {
+    background-color: white;
     border: 2px solid rgb(17, 69, 240, 0.685);
     margin: 4px;
     padding: 6px;

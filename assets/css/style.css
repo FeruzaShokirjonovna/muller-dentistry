@@ -344,6 +344,14 @@ footer {
     box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
 }
 
+/* changes the default placeholder text to match that of the site */
+
+::placeholder, #message{
+    color: #1B3D2F;
+    font-size: large;
+    font-family: 'lato', sans-serif;
+}
+
 
 /*Media query for tablets and larger (min-width: 768px and up)*/
 @media screen and (min-width: 768px) {

@@ -86,7 +86,7 @@ The color scheme was selected to represent feelings of trust and security. Blue 
 
 While the current version is fully functional, there are some ideas for future development:
 - Add information about price.
-- Create a "Contact as today" button on a Home page. 
+- Create a "Contact us today" button on the Home page. 
 
 ## Testing
 
@@ -235,6 +235,7 @@ Some parts of the code was copied from the Walkthrough project [Love Running Pro
 - Copied Asterisk wildcard selector from the Walkthrough project "Love Running"
 - Header & navigation is copied from the Walkthrough project "Love Running"
 - Landing page and cover text style is copied from the Walkthrough project "Love Running"
+- Testimonials section is copied from the Walkthrough project "Love Running"
 - Footer is copied from the Walkthrough project "Love Running"
 
 Team section is customized from W3Schools tutorial [W3schools](https://www.w3schools.com/howto/howto_css_team.asp)
@@ -252,6 +253,6 @@ Team section is customized from W3Schools tutorial [W3schools](https://www.w3sch
   - [GitHub Docs](https://docs.github.com/en)    
 
 ## Acknowledgements
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. Muller' Dentistry is a fictional dentistry.
+The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), David Calikes - cohort facilator, the Slack community, and all at the Code Institute for their help and support. Muller' Dentistry is a fictional dentistry.
 
 Orifjonova Feruza Shokirjonovna, 2023.

@@ -77,7 +77,7 @@ The color scheme was selected to represent feelings of trust and security. Blue 
 
 - Contact page gives information about how to get in touch with the Muller's Dentistry.
 - Contact page shows the time when the dentistry is open, phone, email, address map and a form.
-- There is a form that the user can choose to fill in. It has 5 input fields, name, email, address, callback and a textarea. The call back button lets Wawas Woods know if the user would like a callback.
+- There is a form that the user can choose to fill in. It has 5 input fields, name, email, address, callback and a textarea. The call back button lets Muller's Dentistry know if the user would like a callback.
 
 ![Contact page](assets/readmeimages/contact.png)
 ![Form section](assets/readmeimages/form.png)

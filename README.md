@@ -10,6 +10,36 @@
 
 ## User Experience
 
+### User Requirements and Expectations
+
+#### User goals
+
+- Visually appealing, including images.
+- Easily navigated around.
+- Quality and valuable content.
+- Easily found contact details.
+
+#### Site owners goals
+
+- Attract more custumers.
+- Inform custumers about the dentistry, its service.
+- Make custumers trusted on his team and their experience by sharing feedback from early custumers
+- Increase rankings on search engines.
+
+#### Requirements
+
+- Easy to navigate on various screen sizes.
+- Clear and precise information about Muller's Dentistry.
+- Simple method of contacting the website.
+- Visually appealing design.
+
+#### Expectations
+
+- I expect all links to social media sites to be opened in a new tab.
+- I expect all navigation links to work correctly.
+- I expect screen size not to affect the quality of the website.
+- I expect all information to be correct and accurate.
+
 ### Wireframes
 
 The wireframes for Muller's website were produced in [Balsamiq](https://balsamiq.com). There are frames for a full width display and a small mobile device. The final site varies slightly from the wireframes due to developments that occured during the creation process. 
@@ -47,11 +77,13 @@ The color scheme was selected to represent feelings of trust and security. Blue 
 
 
 ### Benefits section
+
 - The Benefits section allows user get in-depth key features which make Muller's dentistry unique.
 
 ![Benefits section](assets/readmeimages/benefits.png)
 
 ### Testimonials section
+
 - The Testimonials section gives information about various user experiences.
 - It shows warm feedbacks that reflect the high level of expertise, care, and patient-centered approach that sets Muller's Dentistry apart in the eyes of its patients.
 - Patient reviews make customer trust and brand awareness. 
@@ -96,15 +128,15 @@ While the current version is fully functional, there are some ideas for future d
 
 No errors were returned when passing through the [W3C Markup validator](https://validator.w3.org/).
 
-* Home page
+- Home page
 
 ![W3C Validator test result](assets/readmeimages/html_w3test.png)
 
-* Service page
+- Service page
 
 ![W3C Validator test result](assets/readmeimages/html_w3test.png)
 
-* Contact page
+- Contact page
 
 ![W3C Validator test result](assets/readmeimages/html_w3test.png)
 
@@ -237,8 +269,7 @@ Some parts of the code was copied from the Walkthrough project [Love Running Pro
 - Landing page and cover text style is copied from the Walkthrough project "Love Running"
 - Testimonials section is copied from the Walkthrough project "Love Running"
 - Footer is copied from the Walkthrough project "Love Running"
-
-Team section is customized from W3Schools tutorial [W3schools](https://www.w3schools.com/howto/howto_css_team.asp)
+- Team section is customized from W3Schools tutorial [W3schools](https://www.w3schools.com/howto/howto_css_team.asp)
 
 #### Inspiration and tutorials used from
 
@@ -253,6 +284,6 @@ Team section is customized from W3Schools tutorial [W3schools](https://www.w3sch
   - [GitHub Docs](https://docs.github.com/en)    
 
 ## Acknowledgements
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), David Calikes - cohort facilator, the Slack community, and all at the Code Institute for their help and support. Muller' Dentistry is a fictional dentistry.
+The site was completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), David Calikes - cohort facilitator, the Slack community, and all at the Code Institute for their help and support. Muller' Dentistry is a fictional dentistry.
 
 Orifjonova Feruza Shokirjonovna, 2023.
